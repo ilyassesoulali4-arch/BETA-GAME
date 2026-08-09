@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endless World</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000;
+        height: 100%;
+      }
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+      }
+      #seed-display {
+        position: fixed;
+        top: 8px;
+        left: 8px;
+        color: #fff;
+        font-family: monospace;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 4px 8px;
+        border-radius: 4px;
+        user-select: none;
+      }
+      #controls-hint {
+        position: fixed;
+        bottom: 8px;
+        left: 8px;
+        color: #fff;
+        font-family: monospace;
+        font-size: 12px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 4px 8px;
+        border-radius: 4px;
+        user-select: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-Bd85dB3O.js"></script>
+  </head>
+  <body>
+    <div id="seed-display">Seed: loading...</div>
+    <div id="controls-hint">A/D move &middot; W/Space jump &middot; LMB break &middot; RMB place &middot; 1-9 select slot</div>
+  </body>
+</html>

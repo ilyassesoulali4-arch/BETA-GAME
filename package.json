@@ -1,0 +1,19 @@
+{
+  "name": "endless-world",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Endless World - a long-term 2D sandbox game. Version 0.1: player, ground, camera, movement, seed saving.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vitest": "^4.1.10"
+  }
+}
